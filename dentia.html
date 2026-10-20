@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f9fc" />
+    <meta name="description" content="Dentia — pacientes, historia clínica y tratamientos para clínicas dentales." />
+    <title>Dentia · Pacientes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="dentia.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="dentia-page">
+    <a class="dentia-skip-link" href="#dentia-content">Saltar al contenido</a>
+    <div class="dentia-app-preview dentia-product-shell">
+      <aside class="dentia-sidebar" aria-label="Navegación de Dentia">
+        <a class="dentia-sidebar-brand" href="index.html#productos" aria-label="Volver a Leonova">
+          <img src="assets/dentia-pwa-icon.svg" alt="" />
+          <span><strong>Dentia</strong><small>Vista previa</small></span>
+        </a>
+        <span class="dentia-sidebar-label">CL&Iacute;NICA</span>
+        <button class="dentia-nav-item" type="button" data-dentia-screen="agenda"><i>▣</i> Agenda</button>
+        <button class="dentia-nav-item is-current" type="button" data-dentia-screen="patients"><i>♙</i> Pacientes</button>
+        <button class="dentia-nav-item" type="button"><i>▤</i> Mis trabajos</button>
+        <button class="dentia-nav-item" type="button"><i>◇</i> Tratamientos</button>
+        <button class="dentia-nav-item" type="button"><i>◫</i> Disponibilidad<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Doctores</button>
+        <button class="dentia-nav-item" type="button"><i>◇</i> Inventario</button>
+        <span class="dentia-sidebar-label">FINANZAS</span>
+        <button class="dentia-nav-item" type="button"><i>▥</i> Reportes</button>
+        <button class="dentia-nav-item" type="button"><i>▭</i> Cuentas de pacientes</button>
+        <button class="dentia-nav-item" type="button"><i>▱</i> Pagos a personal</button>
+        <span class="dentia-sidebar-label">COMUNICACI&Oacute;N</span>
+        <button class="dentia-nav-item" type="button"><i>☆</i> Calificaciones</button>
+        <button class="dentia-nav-item" type="button"><i>⌁</i> Campa&ntilde;as de WhatsApp</button>
+        <span class="dentia-sidebar-label">ADMINISTRACI&Oacute;N</span>
+        <button class="dentia-nav-item" type="button"><i>♢</i> Auditor&iacute;a</button>
+        <button class="dentia-nav-item" type="button"><i>♧</i> Ajustes</button>
+      </aside>
+
+      <main class="dentia-main" id="dentia-content">
+        <section class="dentia-screen dentia-agenda-screen" data-dentia-screen-panel="agenda" hidden>
+          <div class="dentia-heading"><strong>Agenda</strong></div>
+          <div class="dentia-search"><span>⌕</span><em>Buscar cita por nombre o CI del paciente...</em><b>Buscar</b></div>
+          <div class="dentia-toolbar"><div class="dentia-segmented"><span>D&iacute;a</span><span>Semana</span><strong>Mes</strong></div><i class="dentia-status-dot"></i><span class="dentia-select">Mi Agenda <b>⌄</b></span><span class="dentia-nav-button">‹</span><span class="dentia-today">Hoy</span><span class="dentia-nav-button">›</span><strong class="dentia-month">Octubre De 2026</strong><div class="dentia-actions"><b>＋ Nueva cita</b><span>▤ Imprimir d&iacute;a</span><span>◯ Enviar recordatorios</span></div></div>
+          <div class="dentia-filters"><strong>Todos</strong><span><i></i> Pendiente&nbsp;0</span><span><i></i> Confirmada&nbsp;0</span><span><i></i> En sala&nbsp;0</span><span><i></i> En sill&oacute;n&nbsp;0</span><span><i></i> Atendido&nbsp;0</span><span><i></i> No vino&nbsp;0</span></div>
+          <div class="dentia-calendar"><div class="dentia-weekdays"><span>LUN</span><span>MAR</span><span>MI&Eacute;</span><span>JUE</span><span>VIE</span><span>S&Aacute;B</span><span>DOM</span></div><div class="dentia-dates"><span class="is-muted">28</span><span class="is-muted">29</span><span class="is-muted">30</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span class="is-today">20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span class="is-muted">1</span><span class="is-muted">2</span><span class="is-muted">3</span><span class="is-muted">4</span><span class="is-muted">5</span><span class="is-muted">6</span><span class="is-muted">7</span><span class="is-muted">8</span></div></div>
+        </section>
+
+        <section class="dentia-screen dentia-patients-screen is-active" data-dentia-screen-panel="patients">
+          <div class="dentia-patient-list-view">
+            <div class="dentia-page-heading"><div><strong>Pacientes</strong><small>32 pacientes registrados</small></div><button class="dentia-primary" type="button">＋ Nuevo paciente</button></div>
+            <div class="dentia-incoming"><div><strong>▱ &nbsp;Registros entrantes</strong><p>Env&iacute;a un enlace por WhatsApp y el paciente completar&aacute; su registro. Cuando lo haga, aparecer&aacute; aqu&iacute; para que lo apruebes.</p></div><button type="button">♧ Registrar por WhatsApp</button></div>
+            <div class="dentia-patient-search">⌕ &nbsp; Buscar por nombre, CI o tel&eacute;fono...</div>
+            <div class="dentia-patient-list">
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Alvaro"><span class="dentia-avatar avatar-mint">A</span><span><strong>Alvaro</strong><small>CI: 1069715 &middot; 71620900</small></span></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Amalia"><span class="dentia-avatar avatar-lilac">A</span><span><strong>Amalia</strong><small>CI: 270283 &middot; 72590619</small></span></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Billie"><span class="dentia-avatar avatar-yellow">B</span><span><strong>Billie</strong><small>CI: 00000000000 &middot; 00000000000</small></span><em>⚠ Coagulado, diab&eacute;tico</em></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Campero"><span class="dentia-avatar avatar-green">C</span><span><strong>Campero</strong><small>CI: 910238710928731 &middot; 62552020</small></span></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Carlos"><span class="dentia-avatar avatar-green">C</span><span><strong>Carlos</strong><small>CI: 0923019230 &middot; 62552020</small></span></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Carmen"><span class="dentia-avatar avatar-green">C</span><span><strong>Carmen</strong><small>CI: 293819 &middot; 62552020</small></span></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Daniel Calderon"><span class="dentia-avatar avatar-yellow">DC</span><span><strong>Daniel Calderon</strong><small>CI: 928391023 &middot; 827312</small></span></button>
+              <button class="dentia-patient-row" type="button" data-dentia-patient="Dayana Bustamante"><span class="dentia-avatar avatar-yellow">DB</span><span><strong>Dayana Bustamante</strong><small>Sin CI &middot; Sin tel&eacute;fono</small></span></button>
+            </div>
+          </div>
+
+          <div class="dentia-patient-detail-view" hidden>
+            <button class="dentia-back-button" type="button" data-dentia-back>← Volver a pacientes</button>
+            <div class="dentia-patient-detail-heading"><div><strong>Amalia <span>29 a&ntilde;os</span></strong><small>CI: 270283 &nbsp;&nbsp; Nac.: 08/07/1997 &nbsp;&nbsp; Tel.: 72590619 &nbsp;&nbsp; Saldo: Bs 399.00</small></div><div class="dentia-detail-actions"><button class="dentia-primary" type="button">▣ Agendar cita</button><button type="button">Imprimir expediente</button><button type="button">Editar datos</button><button class="is-danger" type="button">Eliminar paciente</button></div></div>
+            <div class="dentia-detail-tabs"><button class="is-active" type="button" data-dentia-detail-tab="history">Historia cl&iacute;nica</button><button type="button" data-dentia-detail-tab="treatment">Tratamiento</button><button type="button" data-dentia-detail-tab="account">Cuenta</button><button type="button" data-dentia-detail-tab="documents">Documentos</button></div>
+            <div class="dentia-detail-panel is-active" data-dentia-detail-panel="history">
+              <h5>Antecedentes m&eacute;dicos</h5>
+              <div class="dentia-history-card"><div class="dentia-card-toolbar"><strong>Antecedentes m&eacute;dicos</strong><div><button type="button">✈ Solicitar historial</button><button type="button">▤ Imprimir</button><button type="button">✎ Editar</button></div></div><div class="dentia-success-strip">✓ Historial enviado por el paciente y aplicado &middot; 20/07/2026, 01:15 p. m.</div><div class="dentia-history-grid"><div><label>Condiciones</label><b>—</b><label>Medicaci&oacute;n habitual</label><b>—</b><label>Antecedentes familiares</label><b>—</b><label>&Uacute;ltima visita odontol&oacute;gica</label><strong>07/09/23</strong></div><div><label>H&aacute;bitos</label><b>—</b><label>Embarazo / lactancia</label><strong>No aplica</strong><label>Motivo de consulta</label><strong>Extracci&oacute;n</strong></div></div><div class="dentia-signature"><span>Firma del paciente</span><b>Amalia</b></div><small class="dentia-updated">Actualizado por Superadmin &middot; 20/07/2026, 01:15 p. m.</small><div class="dentia-accordion">▱ &nbsp; Anamnesis hist&oacute;rica (sin estructurar) <span>⌄</span></div></div>
+              <h5>Odontograma</h5><div class="dentia-toggle"><button class="is-active" type="button" data-dentia-odontogram="adult">Adulto</button><button type="button" data-dentia-odontogram="child">Pedi&aacute;trico</button></div><p class="dentia-instruction">Elige una condici&oacute;n y haz clic en la cara del diente. Para condiciones de diente completo y marcas X, haz clic en el n&uacute;mero o sobre el diente.</p><div class="dentia-condition-tools"><div><label>CARAS</label><span class="is-selected"><i class="red"></i>Caries</span><span><i class="brown"></i>Caries recidivante</span><span><i class="blue"></i>Resina</span><span><i class="slate"></i>Amalgama</span><span><i class="green"></i>Sellante</span><span><i class="orange"></i>Fractura</span><span><i class="ochre"></i>Desgaste / abrasi&oacute;n</span></div><div><label>DIENTE COMPLETO</label><span><i class="gold"></i>Corona</span><span><i class="purple"></i>Endodoncia</span><span><i class="indigo"></i>Perno mu&ntilde;&oacute;n</span><span><i class="cyan"></i>Implante</span><span><i class="magenta"></i>Pr&oacute;tesis</span><span><i class="red"></i>Extracci&oacute;n indicada</span><span><i class="gray"></i>Ausente</span><span><i class="pink"></i>Movilidad</span><span><i class="teal"></i>En erupci&oacute;n / incluido</span></div><div><label>MARCAS X</label><span>✕ Requerido</span><span>✕ Existente</span><span>♧ Nota personalizada</span><span>⌫ Borrar</span></div></div><div class="dentia-odontogram"><div class="dentia-quad-label">Cuadrante 1 <span>Cuadrante 2</span></div><div class="dentia-teeth dentia-teeth-adult"><span>18</span><span>17</span><span>16</span><span class="marked">15</span><span>14</span><span>13</span><span>12</span><span>11</span><span class="highlight">21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>48</span><span>47</span><span>46</span><span>45</span><span>44</span><span>43</span><span>42</span><span>41</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span></div><div class="dentia-teeth dentia-teeth-child" hidden><span>55</span><span>54</span><span>53</span><span>52</span><span>51</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>85</span><span>84</span><span>83</span><span>82</span><span>81</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span></div></div>
+              <h5>Evoluci&oacute;n del paciente</h5><div class="dentia-evolution"><article><strong>Dr. G&oacute;mez <small>21/08/2026, 05:11 p. m.</small></strong><p>cambio de piezas</p></article><article><strong>Dr. G&oacute;mez <small>21/08/2026, 05:11 p. m.</small></strong><p>Cambio de resina</p></article><article><strong>Superadmin <small>30/07/2026, 05:39 p. m.</small></strong><p>Se hicieron las carillas dentales</p></article></div>
+            </div>
+            <div class="dentia-detail-panel" data-dentia-detail-panel="treatment"><h5>Plan de tratamiento</h5><div class="dentia-treatment-form"><label>Trabajo a realizar<input placeholder="Elige del cat&aacute;logo o escribe uno..." /></label><label>Doctor<select><option>— Sin asignar —</option></select></label><label>Precio (Bs)<input value="0.00" /></label><button class="dentia-primary" type="button">Agregar</button></div><div class="dentia-treatment-table"><div class="dentia-table-head"><span>FECHA</span><span>TRABAJO</span><span>DOCTOR</span><span>PRECIO</span></div><div><span>21/07/2026, 17:07</span><strong>Endodoncia unirradicular</strong><span>Paulo Leon</span><b>Bs 2500.00</b></div><div><span>21/07/2026, 17:08</span><strong>Limpieza dental</strong><span>Paulo Leon</span><b>Bs 600.00</b></div><div><span>30/07/2026, 17:38</span><strong>Carillas</strong><span>Paulo Leon</span><b>Bs 3500.00</b></div><div class="dentia-total"><strong>Total</strong><b>Bs 9801.00</b></div></div><h5>Seguimiento del tratamiento</h5><div class="dentia-treatment-followup"><div><strong>Endodoncia unirradicular <small>Bs 2500.00</small></strong><em class="done">Realizado ✓</em></div><div><strong>Limpieza dental <small>Bs 600.00</small></strong><em>Pendiente&nbsp; ✕</em></div><div><strong>Carillas <small>Bs 3500.00</small></strong><em>Pendiente&nbsp; ✕</em></div></div></div>
+            <div class="dentia-detail-panel dentia-empty-panel" data-dentia-detail-panel="account"><h5>Cuenta del paciente</h5><div><strong>Saldo actual</strong><b>Bs 399.00</b><p>Los movimientos y pagos del paciente aparecer&aacute;n en este espacio.</p></div></div>
+            <div class="dentia-detail-panel dentia-empty-panel" data-dentia-detail-panel="documents"><h5>Documentos</h5><div><strong>Expediente de Amalia</strong><p>Historias, consentimientos y archivos adjuntos organizados en un solo lugar.</p><button type="button">＋ Agregar documento</button></div></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

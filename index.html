@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#081727" />
+    <meta name="description" content="LEONOVA TECHNOLOGIES — software, sistemas e ingeniería para transformar ideas en herramientas que mueven negocios." />
+    <title>LEONOVA TECHNOLOGIES — Tecnología que mueve lo que viene</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="leonova-emblem" viewBox="0 0 200 200">
+        <path class="mark-arc" d="M145 40C92.1 30.5 43 74.3 43 114.4c0 20 8.3 35.3 25 49.6-16.7-18.1-22.3-33.4-18.6-48.6C54.1 80.1 93.1 42.9 145 40Z" />
+        <path class="mark-angle" d="m74 77 97 98h-16L90 110v49h28l16 16H74z" />
+        <path class="mark-stem" d="m150 86 9-9 8 9v69h-17z" />
+        <path class="mark-star" d="m161 20 4 18 14 5-14 4-4 20-4-20-14-4 14-5z" />
+      </symbol>
+    </svg>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" id="inicio">
+      <a class="brand" href="#inicio" aria-label="Leonova Technologies, inicio">
+        <svg class="brand-mark" viewBox="0 0 200 200" role="img" aria-label="Símbolo Leonova"><use href="#leonova-emblem" /></svg>
+        <span class="brand-copy"><strong>LEONOVA</strong><small>TECHNOLOGIES</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#servicios">Qué hacemos</a>
+        <a href="#productos">Nuestros productos</a>
+        <a href="#casos">Soluciones</a>
+        <a href="#metodo">Método</a>
+        <a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero dark-section" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> SOFTWARE · SISTEMAS · INGENIERÍA</p>
+          <h1 id="hero-title">Ideas grandes.<br /><em>Ingeniería</em> que<br />las hace posibles.</h1>
+          <div class="hero-bottom">
+            <p>Diseñamos tecnología útil, clara y hecha para avanzar contigo.</p>
+            <a class="button button-gold" href="#contacto">Construyamos algo <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="nova-aura"></div>
+          <div class="nova-rays"></div>
+          <div class="nova-wave nova-wave-one"></div>
+          <div class="nova-wave nova-wave-two"></div>
+          <svg class="constellation-map" viewBox="0 0 800 800" aria-hidden="true">
+            <g class="constellation-lines">
+              <path d="m138 206 72-40 89 22m261-37 90 27 56 66-48 74M86 433l56 87 79 30 71 52m394-78-76 68-62 93-84 39M117 365l65-79 71-38" />
+            </g>
+            <g class="constellation-stars">
+              <circle cx="138" cy="206" r="2.2" /><circle cx="210" cy="166" r="3" /><circle cx="299" cy="188" r="1.8" />
+              <circle cx="560" cy="151" r="2" /><circle cx="650" cy="178" r="2.8" /><circle cx="706" cy="244" r="2" /><circle cx="658" cy="318" r="1.8" />
+              <circle cx="86" cy="433" r="2.5" /><circle cx="142" cy="520" r="1.8" /><circle cx="221" cy="550" r="2.8" /><circle cx="292" cy="602" r="2" />
+              <circle cx="686" cy="524" r="2" /><circle cx="610" cy="592" r="2.5" /><circle cx="548" cy="685" r="1.8" /><circle cx="464" cy="724" r="2.7" />
+              <circle cx="117" cy="365" r="1.8" /><circle cx="182" cy="286" r="2.6" /><circle cx="253" cy="248" r="1.8" />
+            </g>
+          </svg>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="orbit-node node-one"></div>
+          <div class="orbit-node node-two"></div>
+          <div class="hero-monogram">
+            <svg viewBox="0 0 200 200" role="img" aria-label="Emblema Leonova"><use href="#leonova-emblem" /></svg>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#servicios"><span class="scroll-line"></span> DESLIZA PARA EXPLORAR</a>
+      </section>
+
+      <section class="intro section-light" id="servicios" aria-labelledby="services-title">
+        <div class="section-kicker reveal"><span>01 / LO QUE HACEMOS</span><span>DE LA IDEA AL IMPACTO</span></div>
+        <div class="intro-heading reveal">
+          <h2 id="services-title">La tecnología<br />debe <span>abrir caminos.</span></h2>
+          <p>Unimos pensamiento de producto e ingeniería para resolver problemas reales. Cada proyecto empieza escuchando y termina entregando algo que sí se usa.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="service-number">01</span>
+            <div class="service-icon icon-code" aria-hidden="true">
+              <svg viewBox="0 0 64 56" focusable="false">
+                <rect class="icon-stroke" x="7" y="9" width="50" height="38" rx="3" />
+                <path class="icon-accent" d="M7 19h50" />
+                <circle class="icon-gold-fill" cx="13" cy="14" r="1.3" />
+                <circle class="icon-stroke-fill" cx="18" cy="14" r="1.3" />
+                <path class="icon-stroke" d="m23 29-4 4 4 4m8-8 4 4-4 4m13-8-3 8m-3 0h6" />
+              </svg>
+            </div>
+            <h3>Software a medida</h3>
+            <p>Aplicaciones y plataformas digitales diseñadas alrededor de tu operación, no al revés.</p>
+            <ul class="service-tags" aria-label="Servicios relacionados">
+              <li>Apps web y móviles</li>
+              <li>Portales internos</li>
+              <li>Automatización</li>
+            </ul>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">02</span>
+            <div class="service-icon icon-systems" aria-hidden="true">
+              <svg viewBox="0 0 64 56" focusable="false">
+                <path class="icon-stroke" d="M16 28h10m12 0h10M32 16v10m0 12v9" />
+                <circle class="icon-node" cx="12" cy="28" r="4" />
+                <circle class="icon-node" cx="32" cy="12" r="4" />
+                <circle class="icon-node" cx="52" cy="28" r="4" />
+                <circle class="icon-node" cx="32" cy="49" r="4" />
+                <circle class="icon-center" cx="32" cy="28" r="6" />
+              </svg>
+            </div>
+            <h3>Sistemas que conectan</h3>
+            <p>Procesos, datos y equipos en sintonía para que tu negocio avance con más claridad.</p>
+            <ul class="service-tags" aria-label="Servicios relacionados">
+              <li>Integración de sistemas</li>
+              <li>Flujos de trabajo</li>
+              <li>Datos conectados</li>
+            </ul>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">03</span>
+            <div class="service-icon icon-engineering" aria-hidden="true">
+              <svg viewBox="0 0 64 56" focusable="false">
+                <path class="icon-accent" d="m8 19 24-12 24 12-24 12z" />
+                <path class="icon-stroke" d="M8 19v15l24 13 24-13V19M8 27l24 13 24-13M32 31v16" />
+                <circle class="icon-gold-fill" cx="32" cy="19" r="2" />
+              </svg>
+            </div>
+            <h3>Ingeniería digital</h3>
+            <p>Arquitectura sólida y decisiones técnicas pensadas para crecer sin perder el rumbo.</p>
+            <ul class="service-tags" aria-label="Servicios relacionados">
+              <li>Arquitectura de software</li>
+              <li>APIs</li>
+              <li>Escalabilidad</li>
+            </ul>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+        <div class="manifesto reveal"><span class="manifesto-mark">“</span><p>La mejor tecnología es la que hace que lo complejo <em>se sienta simple.</em></p><span class="manifesto-line"></span></div>
+      </section>
+
+      <section class="products dark-section" id="productos" aria-labelledby="products-title">
+        <div class="products-top section-kicker reveal"><span>02 / NUESTROS PRODUCTOS</span><span>HERRAMIENTAS PARA EL DÍA A DÍA <b>↘</b></span></div>
+        <div class="products-heading reveal">
+          <h2 id="products-title">Nuestros<br /><span>productos.</span></h2>
+          <p>Cuatro soluciones especializadas. Una misma obsesión: que todo funcione mejor.</p>
+        </div>
+        <div class="product-system reveal" aria-label="Sistema solar interactivo de productos Leonova">
+          <div class="product-system-visual" data-product-system>
+            <span class="product-system-ring product-system-ring-main" aria-hidden="true"></span>
+            <span class="product-system-ring product-system-ring-secondary" aria-hidden="true"></span>
+            <span class="product-system-ring product-system-ring-tertiary" aria-hidden="true"></span>
+            <button class="product-planet product-planet-pagu" type="button" data-product-key="pagu" data-orbit-angle="-90" data-orbit-speed="0.17" data-orbit-x=".37" data-orbit-y=".37" data-tooltip="PaGu · Gestión para restaurantes" title="PaGu · Gestión para restaurantes" aria-label="Seleccionar PaGu" aria-pressed="false"><span class="product-planet-body"><img src="assets/pagu-pwa-icon.svg" alt="" /><b>PaGu</b></span></button>
+            <button class="product-planet product-planet-dentia" type="button" data-product-key="dentia" data-orbit-angle="0" data-orbit-speed="-0.13" data-orbit-x=".34" data-orbit-y=".41" data-tooltip="Dentia · Clínicas dentales" title="Dentia · Clínicas dentales" aria-label="Seleccionar Dentia" aria-pressed="false"><span class="product-planet-body"><img src="assets/dentia-pwa-icon.svg" alt="" /><b>Dentia</b></span></button>
+            <button class="product-planet product-planet-ambar" type="button" data-product-key="ambar" data-orbit-angle="90" data-orbit-speed="0.11" data-orbit-x=".41" data-orbit-y=".32" data-tooltip="Ámbar · Medicina estética" title="Ámbar · Medicina estética" aria-label="Seleccionar Ámbar" aria-pressed="false"><span class="product-planet-body"><img src="assets/ambar-pwa-icon.svg" alt="" /><b>Ámbar</b></span></button>
+            <button class="product-planet product-planet-inventia" type="button" data-product-key="inventia" data-orbit-angle="180" data-orbit-speed="-0.15" data-orbit-x=".38" data-orbit-y=".39" data-tooltip="Inventia · Inventario y ventas" title="Inventia · Inventario y ventas" aria-label="Seleccionar Inventia" aria-pressed="false"><span class="product-planet-body"><img src="assets/inventia-app-icon.png" alt="" /><b>Inventia</b></span></button>
+            <div class="product-system-sun" aria-label="Leonova, centro del ecosistema"><span>LEONOVA</span><small>TECNOLOGÍA CON PROPÓSITO</small></div>
+          </div>
+          <aside class="product-system-details" aria-live="polite" aria-atomic="true">
+            <span class="product-system-eyebrow">ECOSISTEMA LEONOVA</span>
+            <span class="product-system-index" data-product-index>01 — 04</span>
+            <h3 data-product-title>Cuatro productos. Un mismo centro.</h3>
+            <p data-product-description>Selecciona un planeta para descubrir cómo cada solución ayuda a una operación distinta.</p>
+            <div class="product-system-features" data-product-features><span>Operación</span><span>Claridad</span><span>Conexión</span></div>
+            <div class="product-system-metrics" data-product-metrics aria-label="Funciones principales"></div>
+            <a class="product-system-cta" data-product-cta href="#casos"><span data-product-cta-label>Explorar productos</span><b aria-hidden="true">↗</b></a>
+            <p class="product-system-hint">Pasa el puntero para ver una descripción.<br />Haz clic en un planeta para ver sus detalles.</p>
+          </aside>
+        </div>
+        <div class="product-list">
+          <a class="product-card pagu reveal" href="#caso-pagu" aria-label="Conoce PaGu, sistema de gestión para restaurantes">
+            <span class="product-index">01</span>
+            <span class="product-symbol product-pwa-icon" aria-hidden="true"><img src="assets/pagu-pwa-icon.svg" alt="" width="512" height="512" /></span>
+            <span class="product-info"><strong>PaGu</strong><small>SISTEMA DE GESTIÓN PARA RESTAURANTES</small><span class="product-description">Conecta pedidos, cocina, caja y ventas en una sola operación.</span></span>
+            <span class="product-orbit" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="product-link">DESCUBRIR <b>↗</b></span>
+          </a>
+          <a class="product-card dentia reveal" href="#caso-dentia" aria-label="Ver Dentia, sistema de gestión para clínicas dentales">
+            <span class="product-index">02</span>
+            <span class="product-symbol product-pwa-icon" aria-hidden="true"><img src="assets/dentia-pwa-icon.svg" alt="" width="512" height="512" /></span>
+            <span class="product-info"><strong>Dentia</strong><small>SISTEMA DE GESTIÓN PARA CLÍNICAS DENTALES</small><span class="product-description">Organiza agenda, expedientes clínicos y tratamientos dentales.</span></span>
+            <span class="product-orbit" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="product-link">DESCUBRIR <b>↗</b></span>
+          </a>
+          <a class="product-card ambar reveal" href="#caso-ambar" aria-label="Conoce Ámbar, sistema de gestión para medicina estética">
+            <span class="product-index">03</span>
+            <span class="product-symbol product-pwa-icon" aria-hidden="true"><img src="assets/ambar-pwa-icon.svg" alt="" width="512" height="512" /></span>
+            <span class="product-info"><strong>Ámbar</strong><small>SISTEMA DE GESTIÓN PARA MEDICINA ESTÉTICA</small><span class="product-description">Reúne evaluación estética, sesiones y evolución clínica.</span></span>
+            <span class="product-orbit" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="product-link">DESCUBRIR <b>↗</b></span>
+          </a>
+          <a class="product-card inventia reveal" href="#caso-inventia" aria-label="Conoce Inventia, sistema de gestión de inventarios">
+            <span class="product-index">04</span>
+            <span class="product-symbol product-pwa-icon" aria-hidden="true"><img src="assets/inventia-app-icon.png" alt="" width="512" height="512" loading="lazy" decoding="async" /></span>
+            <span class="product-info"><strong>Inventia</strong><small>SISTEMA DE GESTIÓN DE INVENTARIOS</small><span class="product-description">Controla ventas, existencias y necesidades de reposición.</span></span>
+            <span class="product-orbit" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="product-link">DESCUBRIR <b>↗</b></span>
+          </a>
+        </div>
+        <div class="product-footnote reveal"><span>TECNOLOGÍA ESPECIALIZADA</span><span>DISEÑADA CERCA DE QUIEN LA USA <i>✳</i></span></div>
+      </section>
+
+      <section class="cases section-light" id="casos" aria-labelledby="cases-title">
+        <div class="section-kicker reveal"><span>03 / SOLUCIONES EN ACCIÓN</span><span>VISTAS REPRESENTATIVAS</span></div>
+        <div class="cases-heading reveal">
+          <div>
+            <p class="cases-overline">TECNOLOGÍA PENSADA PARA CADA OPERACIÓN</p>
+            <h2 id="cases-title">Herramientas claras.<br /><span>Trabajo mejor conectado.</span></h2>
+          </div>
+          <p>Cuatro productos propios, diseñados para que los equipos tengan a mano lo que necesitan para operar mejor.</p>
+        </div>
+
+        <div class="cases-grid">
+          <article class="case-card case-pagu reveal" id="caso-pagu" aria-labelledby="case-pagu-title" tabindex="-1">
+            <div class="case-card-head">
+              <div class="case-brand"><img src="assets/pagu-pwa-icon.svg" alt="" /><span><small>RESTAURANTES</small><strong>PaGu</strong></span></div>
+              <span class="case-number">01</span>
+            </div>
+            <div class="case-preview pagu-app-preview" aria-label="Vista interactiva del m&oacute;dulo PaGu">
+              <div class="pagu-app-layout">
+                <aside class="pagu-sidebar">
+                  <div class="pagu-sidebar-brand"><img src="assets/pagu-pwa-icon.svg" alt="" /><span><strong>PaGu Restaurant</strong><small>Vista previa</small></span></div>
+                  <button class="pagu-nav-item is-current" type="button" data-pagu-screen="counter"><i>&#9632;</i><span>Mostrador</span></button>
+                  <button class="pagu-nav-item" type="button"><i>&#8744;</i><span>Venta r&aacute;pida</span></button>
+                  <button class="pagu-nav-item" type="button" data-pagu-screen="dashboard"><i>&#8962;</i><span>Inicio</span></button>
+                  <button class="pagu-nav-item" type="button"><i>&#10022;</i><span>Tomar pedido</span></button>
+                  <button class="pagu-nav-item" type="button"><i>&#9823;</i><span>Cocina</span></button>
+                  <button class="pagu-nav-item" type="button"><i>&#9633;</i><span>Caja</span></button>
+                  <button class="pagu-nav-item" type="button"><i>&#9642;</i><span>Ventas</span></button>
+                  <button class="pagu-nav-item" type="button" data-pagu-screen="menu"><i>&#9636;</i><span>Gesti&oacute;n de Men&uacute;</span></button>
+                  <button class="pagu-nav-item" type="button"><i>&#9881;</i><span>Ajustes</span></button>
+                  <div class="pagu-sidebar-spacer"></div>
+                  <strong class="pagu-role">&#9671; Superadmin</strong>
+                  <small class="pagu-dark-mode">&#9790; Modo oscuro</small>
+                </aside>
+                <main class="pagu-main">
+                  <section class="pagu-screen" data-pagu-screen-panel="counter">
+                    <div class="pagu-section-heading"><div><small>RECEPCI&Oacute;N / MOSTRADOR</small><h3>Nuevo pedido</h3></div><button class="pagu-cart" type="button">Carrito (0)</button></div>
+                    <div class="pagu-search">&#9906; <span>Buscar plato...</span></div>
+                    <div class="pagu-categories"><button class="is-active" type="button">Todos</button><button type="button">Thimpu</button><button type="button">Caldito</button><button type="button">Carne a la Parrilla</button><button type="button">Bebidas</button><button type="button">Asados</button><button type="button">Comida al Horno</button></div>
+                    <div class="pagu-food-grid">
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Tira a la parrilla" /><div><strong>Tira</strong><b>Bs 40.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Tostado" /><div><strong>Tostado Polic&iacute;a</strong><b>Bs 20.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Lech&oacute;n al horno" /><div><strong>Lech&oacute;n al Horno</strong><b>Bs 50.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Jakonta" /><div><strong>Jakonta</strong><b>Bs 25.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Thimpu tostado" /><div><strong>Thimpu tostado</strong><b>Bs 25.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Thimpu sin tostar" /><div><strong>Thimpu sin tostar</strong><b>Bs 25.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Kawi caldo" /><div><strong>Kawi Caldo</strong><b>Bs 25.00</b></div></article>
+                      <article class="pagu-food-card"><img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Fresco" /><div><strong>Fresco</strong><b>Bs 2.50</b></div></article>
+                    </div>
+                  </section>
+                  <section class="pagu-screen" data-pagu-screen-panel="dashboard" hidden>
+                    <div class="pagu-dashboard-hero"><div><small>PANEL DE OPERACI&Oacute;N</small><h3>Buenos d&iacute;as, Superadmin.</h3><p>El pulso de tu restaurante, actualizado con cada cobro.</p></div><button type="button">Ir a Caja &#8594;</button></div>
+                    <div class="pagu-dashboard-stats"><article class="is-green"><small>Ventas de hoy</small><strong>Bs 130.00</strong><span>4 cuentas cobradas</span></article><article class="is-blue"><small>Ventas de la semana</small><strong>Bs 130.00</strong><span>Desde el lunes</span></article><article class="is-navy"><small>Ventas del mes</small><strong>Bs 390.00</strong><span>Ingresos cobrados</span></article></div>
+                    <div class="pagu-dashboard-grid"><article class="pagu-dashboard-panel"><small>VENTAS DE HOY</small><strong>Bs 130.00</strong><hr /><div><span>Ticket promedio</span><b>Bs 32.50</b></div><div><span>Cuentas cobradas</span><b>4</b></div></article><article class="pagu-dashboard-panel pagu-attention"><small>ATENCI&Oacute;N EN CURSO</small><div><span>&#9711; Comandas activas</span><b>0</b></div><div><span>&#9636; Mesas ocupadas</span><b>0</b></div></article></div>
+                    <div class="pagu-dashboard-grid"><article class="pagu-dashboard-panel"><small>FAVORITOS DEL MES</small><h4>Platos m&aacute;s vendidos</h4><ol><li><span>Tira</span><b>7 uds.</b></li><li><span>Tostado Polic&iacute;a</span><b>3 uds.</b></li><li><span>Lech&oacute;n al Horno</span><b>1 uds.</b></li></ol></article><article class="pagu-dashboard-panel"><h4>Estado de mesas</h4><div class="pagu-table-state"><span><b>0</b>LIBRE</span><span><b>1</b>LIBRE</span></div></article></div>
+                  </section>
+                  <section class="pagu-screen" data-pagu-screen-panel="menu" hidden>
+                    <div class="pagu-section-heading"><div><h3>Gesti&oacute;n de Men&uacute;</h3><small>10 &iacute;tems &middot; 7 categor&iacute;as</small></div><button class="pagu-new-item" type="button">＋ Nuevo &iacute;tem</button></div>
+                    <div class="pagu-menu-tabs"><button class="is-active" type="button">&#9672; &Iacute;tems del Men&uacute;</button><button type="button">&#9674; Categor&iacute;as</button></div>
+                    <div class="pagu-menu-search">&#9906; <span>Buscar &iacute;tem...</span><b>Todas las categor&iacute;as</b></div>
+                    <div class="pagu-menu-table"><div class="pagu-menu-head"><span>&Iacute;TEM</span><span>CATEGOR&Iacute;A</span><span>PRECIO</span><span>MARGEN</span><span>ESTADO</span></div><div><span class="pagu-menu-item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=100&amp;q=70" alt="" />Tira</span><span>Carne a la Parrilla</span><strong>Bs 40.00</strong><b>37.5%</b><em>Disponible</em></div><div><span class="pagu-menu-item"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=100&amp;q=70" alt="" />Tostado Polic&iacute;a</span><span>Thimpu</span><strong>Bs 20.00</strong><b>5.0%</b><em>Disponible</em></div><div><span class="pagu-menu-item"><img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&amp;fit=crop&amp;w=100&amp;q=70" alt="" />Lech&oacute;n al Horno</span><span>Comida al Horno</span><strong>Bs 50.00</strong><b>20.0%</b><em>Disponible</em></div><div><span class="pagu-menu-item"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;w=100&amp;q=70" alt="" />Thimpu tostado</span><span>Thimpu</span><strong>Bs 25.00</strong><b>52.0%</b><em>Disponible</em></div></div>
+                  </section>
+                </main>
+              </div>
+            </div>
+            <div class="case-copy"><h3 id="case-pagu-title">Pedidos, caja y mesas en sintonía.</h3><p>Una vista operativa para coordinar la atención del restaurante y seguir el movimiento del día.</p><a href="#contacto">Conversemos sobre PaGu <span aria-hidden="true">↗</span></a></div>
+          </article>
+
+          <article class="case-card case-dentia reveal" id="caso-dentia" aria-labelledby="case-dentia-title" tabindex="-1">
+            <div class="case-card-head">
+              <a class="case-brand" href="#caso-dentia" aria-label="Ver m&oacute;dulo Dentia"><img src="assets/dentia-pwa-icon.svg" alt="" /><span><small>CL&Iacute;NICAS DENTALES</small><strong>Dentia</strong></span></a>
+              <span class="case-number">02</span>
+            </div>
+            <div class="case-preview dentia-app-preview" aria-label="Vista interactiva del m&oacute;dulo de pacientes de Dentia">
+              <div class="dentia-app-layout">
+                <aside class="dentia-sidebar">
+                  <div class="dentia-sidebar-brand"><img src="assets/dentia-pwa-icon.svg" alt="" /><strong>Dentia</strong></div>
+                  <span class="dentia-sidebar-label">CL&Iacute;NICA</span>
+                  <button class="dentia-nav-item" type="button" data-dentia-screen="agenda"><i>▣</i> Agenda</button>
+                  <button class="dentia-nav-item is-current" type="button" data-dentia-screen="patients"><i>♙</i> Pacientes</button>
+                  <button class="dentia-nav-item" type="button"><i>▤</i> Mis trabajos</button>
+                  <button class="dentia-nav-item" type="button"><i>◇</i> Tratamientos</button>
+                  <button class="dentia-nav-item" type="button"><i>◫</i> Disponibilidad</button>
+                  <span class="dentia-sidebar-label">FINANZAS</span>
+                  <button class="dentia-nav-item" type="button"><i>▥</i> Reportes</button>
+                  <button class="dentia-nav-item" type="button"><i>▭</i> Cuentas de pacientes</button>
+                  <button class="dentia-nav-item" type="button"><i>▱</i> Pagos a personal</button>
+                  <span class="dentia-sidebar-label">ADMINISTRACI&Oacute;N</span>
+                  <button class="dentia-nav-item" type="button"><i>♢</i> Ajustes</button>
+                </aside>
+                <div class="dentia-main">
+                  <section class="dentia-screen dentia-agenda-screen" data-dentia-screen-panel="agenda" hidden>
+                    <div class="dentia-heading"><strong>Agenda</strong></div>
+                    <div class="dentia-search"><span>⌕</span><em>Buscar cita por nombre o CI del paciente...</em><b>Buscar</b></div>
+                    <div class="dentia-toolbar">
+                      <div class="dentia-segmented"><span>D&iacute;a</span><span>Semana</span><strong>Mes</strong></div><i class="dentia-status-dot"></i><span class="dentia-select">Mi Agenda <b>⌄</b></span><span class="dentia-nav-button">‹</span><span class="dentia-today">Hoy</span><span class="dentia-nav-button">›</span><strong class="dentia-month">Octubre De 2026</strong>
+                      <div class="dentia-actions"><b>＋ Nueva cita</b><span>▤ Imprimir d&iacute;a</span><span>◯ Enviar recordatorios</span></div>
+                    </div>
+                    <div class="dentia-filters"><strong>Todos</strong><span><i></i> Pendiente&nbsp;0</span><span><i></i> Confirmada&nbsp;0</span><span><i></i> En sala&nbsp;0</span><span><i></i> En sill&oacute;n&nbsp;0</span><span><i></i> Atendido&nbsp;0</span><span><i></i> No vino&nbsp;0</span></div>
+                    <div class="dentia-calendar"><div class="dentia-weekdays"><span>LUN</span><span>MAR</span><span>MI&Eacute;</span><span>JUE</span><span>VIE</span><span>S&Aacute;B</span><span>DOM</span></div><div class="dentia-dates"><span class="is-muted">28</span><span class="is-muted">29</span><span class="is-muted">30</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span class="is-today">20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span class="is-muted">1</span><span class="is-muted">2</span><span class="is-muted">3</span><span class="is-muted">4</span><span class="is-muted">5</span><span class="is-muted">6</span><span class="is-muted">7</span><span class="is-muted">8</span></div></div>
+                  </section>
+
+                  <section class="dentia-screen dentia-patients-screen is-active" data-dentia-screen-panel="patients">
+                    <div class="dentia-patient-list-view">
+                      <div class="dentia-page-heading"><div><strong>Pacientes</strong><small>32 pacientes registrados</small></div><button class="dentia-primary" type="button">＋ Nuevo paciente</button></div>
+                      <div class="dentia-incoming"><div><strong>▱ &nbsp;Registros entrantes</strong><p>Env&iacute;a un enlace por WhatsApp y el paciente completar&aacute; su registro.</p></div><button type="button">♧ Registrar por WhatsApp</button></div>
+                      <div class="dentia-patient-search">⌕ &nbsp; Buscar por nombre, CI o tel&eacute;fono...</div>
+                      <div class="dentia-patient-list">
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Alvaro"><span class="dentia-avatar avatar-mint">A</span><span><strong>Alvaro</strong><small>CI: 1069715 &middot; 71620900</small></span></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Amalia"><span class="dentia-avatar avatar-lilac">A</span><span><strong>Amalia</strong><small>CI: 270283 &middot; 72590619</small></span></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Billie"><span class="dentia-avatar avatar-yellow">B</span><span><strong>Billie</strong><small>CI: 00000000000 &middot; 00000000000</small></span><em>⚠ Coagulado, diab&eacute;tico</em></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Campero"><span class="dentia-avatar avatar-green">C</span><span><strong>Campero</strong><small>CI: 910238710928731 &middot; 62552020</small></span></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Carlos"><span class="dentia-avatar avatar-green">C</span><span><strong>Carlos</strong><small>CI: 0923019230 &middot; 62552020</small></span></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Carmen"><span class="dentia-avatar avatar-green">C</span><span><strong>Carmen</strong><small>CI: 293819 &middot; 62552020</small></span></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Daniel Calderon"><span class="dentia-avatar avatar-yellow">DC</span><span><strong>Daniel Calderon</strong><small>CI: 928391023 &middot; 827312</small></span></button>
+                        <button class="dentia-patient-row" type="button" data-dentia-patient="Dayana Bustamante"><span class="dentia-avatar avatar-yellow">DB</span><span><strong>Dayana Bustamante</strong><small>Sin CI &middot; Sin tel&eacute;fono</small></span></button>
+                      </div>
+                    </div>
+
+                    <div class="dentia-patient-detail-view" hidden>
+                      <button class="dentia-back-button" type="button" data-dentia-back>← Volver a pacientes</button>
+                      <div class="dentia-patient-detail-heading"><div><strong>Amalia <span>29 a&ntilde;os</span></strong><small>CI: 270283 &nbsp;&nbsp; Nac.: 08/07/1997 &nbsp;&nbsp; Tel.: 72590619 &nbsp;&nbsp; Saldo: Bs 399.00</small></div><div class="dentia-detail-actions"><button class="dentia-primary" type="button">▣ Agendar cita</button><button type="button">Imprimir expediente</button><button type="button">Editar datos</button><button class="is-danger" type="button">Eliminar paciente</button></div></div>
+                      <div class="dentia-detail-tabs"><button class="is-active" type="button" data-dentia-detail-tab="history">Historia cl&iacute;nica</button><button type="button" data-dentia-detail-tab="treatment">Tratamiento</button><button type="button" data-dentia-detail-tab="account">Cuenta</button><button type="button" data-dentia-detail-tab="documents">Documentos</button></div>
+
+                      <div class="dentia-detail-panel is-active" data-dentia-detail-panel="history">
+                        <h5>Antecedentes m&eacute;dicos</h5>
+                        <div class="dentia-history-card"><div class="dentia-card-toolbar"><strong>Antecedentes m&eacute;dicos</strong><div><button type="button">✈ Solicitar historial</button><button type="button">▤ Imprimir</button><button type="button">✎ Editar</button></div></div><div class="dentia-success-strip">✓ Historial enviado por el paciente y aplicado &middot; 20/07/2026, 01:15 p. m.</div><div class="dentia-history-grid"><div><label>Condiciones</label><b>—</b><label>Medicaci&oacute;n habitual</label><b>—</b><label>Antecedentes familiares</label><b>—</b><label>&Uacute;ltima visita odontol&oacute;gica</label><strong>07/09/23</strong></div><div><label>H&aacute;bitos</label><b>—</b><label>Embarazo / lactancia</label><strong>No aplica</strong><label>Motivo de consulta</label><strong>Extracci&oacute;n</strong></div></div><div class="dentia-signature"><span>Firma del paciente</span><b>Amalia</b></div><small class="dentia-updated">Actualizado por Superadmin &middot; 20/07/2026, 01:15 p. m.</small><div class="dentia-accordion">▱ &nbsp; Anamnesis hist&oacute;rica (sin estructurar) <span>⌄</span></div></div>
+                        <h5>Odontograma</h5><div class="dentia-toggle"><button class="is-active" type="button" data-dentia-odontogram="adult">Adulto</button><button type="button" data-dentia-odontogram="child">Pedi&aacute;trico</button></div><p class="dentia-instruction">Elige una condici&oacute;n y haz clic en la cara del diente. Para condiciones de diente completo y marcas X, haz clic en el n&uacute;mero o sobre el diente.</p><div class="dentia-condition-tools"><div><label>CARAS</label><span class="is-selected"><i class="red"></i>Caries</span><span><i class="brown"></i>Caries recidivante</span><span><i class="blue"></i>Resina</span><span><i class="slate"></i>Amalgama</span><span><i class="green"></i>Sellante</span><span><i class="orange"></i>Fractura</span><span><i class="ochre"></i>Desgaste / abrasi&oacute;n</span></div><div><label>DIENTE COMPLETO</label><span><i class="gold"></i>Corona</span><span><i class="purple"></i>Endodoncia</span><span><i class="indigo"></i>Perno mu&ntilde;&oacute;n</span><span><i class="cyan"></i>Implante</span><span><i class="magenta"></i>Pr&oacute;tesis</span><span><i class="red"></i>Extracci&oacute;n indicada</span><span><i class="gray"></i>Ausente</span><span><i class="pink"></i>Movilidad</span><span><i class="teal"></i>En erupci&oacute;n / incluido</span></div><div><label>MARCAS X</label><span>✕ Requerido</span><span>✕ Existente</span><span>♧ Nota personalizada</span><span>⌫ Borrar</span></div></div><div class="dentia-odontogram"><div class="dentia-quad-label">Cuadrante 1 <span>Cuadrante 2</span></div><div class="dentia-teeth dentia-teeth-adult"><span>18</span><span>17</span><span>16</span><span class="marked">15</span><span>14</span><span>13</span><span>12</span><span>11</span><span class="highlight">21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>48</span><span>47</span><span>46</span><span>45</span><span>44</span><span>43</span><span>42</span><span>41</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span></div><div class="dentia-teeth dentia-teeth-child" hidden><span>55</span><span>54</span><span>53</span><span>52</span><span>51</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>85</span><span>84</span><span>83</span><span>82</span><span>81</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span></div></div>
+                        <h5>Evoluci&oacute;n del paciente</h5><div class="dentia-evolution"><article><strong>Dr. G&oacute;mez <small>21/08/2026, 05:11 p. m.</small></strong><p>cambio de piezas</p></article><article><strong>Dr. G&oacute;mez <small>21/08/2026, 05:11 p. m.</small></strong><p>Cambio de resina</p></article><article><strong>Superadmin <small>30/07/2026, 05:39 p. m.</small></strong><p>Se hicieron las carillas dentales</p></article></div>
+                      </div>
+
+                      <div class="dentia-detail-panel" data-dentia-detail-panel="treatment"><h5>Plan de tratamiento</h5><div class="dentia-treatment-form"><label>Trabajo a realizar<input placeholder="Elige del cat&aacute;logo o escribe uno..." /></label><label>Doctor<select><option>— Sin asignar —</option></select></label><label>Precio (Bs)<input value="0.00" /></label><button class="dentia-primary" type="button">Agregar</button></div><div class="dentia-treatment-table"><div class="dentia-table-head"><span>FECHA</span><span>TRABAJO</span><span>DOCTOR</span><span>PRECIO</span></div><div><span>21/07/2026, 17:07</span><strong>Endodoncia unirradicular</strong><span>Paulo Leon</span><b>Bs 2500.00</b></div><div><span>21/07/2026, 17:08</span><strong>Limpieza dental</strong><span>Paulo Leon</span><b>Bs 600.00</b></div><div><span>30/07/2026, 17:38</span><strong>Carillas</strong><span>Paulo Leon</span><b>Bs 3500.00</b></div><div class="dentia-total"><strong>Total</strong><b>Bs 9801.00</b></div></div><h5>Seguimiento del tratamiento</h5><div class="dentia-treatment-followup"><div><strong>Endodoncia unirradicular <small>Bs 2500.00</small></strong><em class="done">Realizado ✓</em></div><div><strong>Limpieza dental <small>Bs 600.00</small></strong><em>Pendiente&nbsp; ✕</em></div><div><strong>Carillas <small>Bs 3500.00</small></strong><em>Pendiente&nbsp; ✕</em></div></div></div>
+                      <div class="dentia-detail-panel dentia-empty-panel" data-dentia-detail-panel="account"><h5>Cuenta del paciente</h5><div><strong>Saldo actual</strong><b>Bs 399.00</b><p>Los movimientos y pagos del paciente aparecer&aacute;n en este espacio.</p></div></div>
+                      <div class="dentia-detail-panel dentia-empty-panel" data-dentia-detail-panel="documents"><h5>Documentos</h5><div><strong>Expediente de Amalia</strong><p>Historias, consentimientos y archivos adjuntos organizados en un solo lugar.</p><button type="button">＋ Agregar documento</button></div></div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="case-copy"><h3 id="case-dentia-title">Todo el expediente dental, en un mismo lugar.</h3><p>Pacientes, historia cl&iacute;nica, odontograma, tratamientos y evoluci&oacute;n reunidos en un flujo claro para la cl&iacute;nica.</p><a href="#contacto">Conversemos sobre Dentia <span aria-hidden="true">↗</span></a></div>
+          </article>
+
+          <article class="case-card case-ambar reveal" id="caso-ambar" aria-labelledby="case-ambar-title" tabindex="-1">
+            <div class="case-card-head">
+              <div class="case-brand"><img src="assets/ambar-pwa-icon.svg" alt="" /><span><small>MEDICINA ESTÉTICA</small><strong>Ámbar</strong></span></div>
+              <span class="case-number">03</span>
+            </div>
+            <div class="case-preview ambar-app-preview" aria-label="Vista del mapa facial de &Aacute;mbar">
+              <div class="ambar-app-layout">
+                <aside class="ambar-sidebar">
+                  <div class="ambar-sidebar-brand"><img src="assets/ambar-pwa-icon.svg" alt="" /><span><strong>&Aacute;mbar</strong><small>Vista previa</small></span></div>
+                  <nav class="ambar-nav" aria-label="Navegaci&oacute;n de &Aacute;mbar">
+                    <span><i>&#9633;</i>Agenda</span><span class="is-current"><i>&#9787;</i>Pacientes</span><span><i>&#9636;</i>Mis trabajos</span><span><i>&#9632;</i>Pagos a personal</span><span><i>&#9633;</i>Tratamientos</span><span><i>&#9632;</i>Inventario</span><span><i>&#9633;</i>Productos</span><span><i>&#9633;</i>Cuentas de pacientes</span><span><i>&#9685;</i>Disponibilidad profesionales</span><span><i>&#9881;</i>Ajustes</span>
+                  </nav>
+                  <div class="ambar-sidebar-spacer"></div><strong class="ambar-role">&#9671; Superadmin</strong><small class="ambar-dark-mode">&#9790; Modo oscuro</small><small class="ambar-logout">Cerrar sesi&oacute;n</small>
+                </aside>
+                <main class="ambar-main">
+                  <div class="ambar-patient-heading"><div><small>EXPEDIENTE DEL PACIENTE</small><h3>Amalia <span>29 a&ntilde;os</span></h3><p>CI: 270283 &nbsp;&middot;&nbsp; Nac.: 08/07/1997 &nbsp;&middot;&nbsp; Tel.: 72590619</p></div><div class="ambar-actions"><b>Agendar cita</b><span>Imprimir expediente</span><span>Editar datos</span></div></div>
+                  <div class="ambar-tabs"><strong>Historia cl&iacute;nica</strong><span>Tratamiento</span><span>Cuenta</span><span>Documentos</span></div>
+                  <section class="ambar-clinical"><div class="ambar-section-heading"><h4>Evaluaci&oacute;n cl&iacute;nica y dermatol&oacute;gica</h4><span>Actualizado hoy</span></div><div class="ambar-eval-grid"><div><label>Fototipo Fitzpatrick</label><b>II</b><label>Piel normal</label><b>S&iacute;</b><label>Piel grasa</label><b>No</b><label>Discrom&iacute;as</label><b>No</b><label>Cicatrices</label><b>No</b></div><div><label>Piel seca</label><b>No</b><label>Piel mixta</label><b>No</b><label>Telangiectasias</label><b>No</b><label>Flacidez</label><b>S&iacute;</b><label>Poros dilatados</label><b>S&iacute;</b></div><div><label>Adiposidad localizada</label><b>No</b><label>Estr&iacute;as</label><b>No</b><label>Valoraci&oacute;n facial</label><b>Tercio superior / frente</b><label>Valoraci&oacute;n corporal</label><b>En evaluaci&oacute;n</b></div></div></section>
+                  <section class="ambar-evolution"><h4>Evoluci&oacute;n del paciente</h4><p>Sin notas de evoluci&oacute;n registradas.</p></section>
+                  <section class="ambar-map-section"><div><h4>Mapa facial de aplicaci&oacute;n</h4><p>Puntos de aplicaci&oacute;n registrados para la sesi&oacute;n.</p></div><button>+ Nuevo mapa</button><div class="ambar-empty-map">&#9678; &nbsp; A&uacute;n no hay mapas de aplicaci&oacute;n para este paciente.</div></section>
+                </main>
+              </div>
+              <div class="ambar-dim" aria-hidden="true"></div>
+              <section class="ambar-modal" role="dialog" aria-label="Nuevo mapa facial">
+                <header class="ambar-modal-head"><div><h3>Nuevo mapa facial</h3><p>Elige el producto activo y marca cada punto de aplicaci&oacute;n sobre la silueta.</p></div><button aria-label="Cerrar">&times;</button></header>
+                <div class="ambar-modal-grid">
+                  <div class="ambar-face-column"><div class="ambar-face-tools"><span>&#10022; Simetr&iacute;a</span><span>&#9673; Zonas</span><span class="is-disabled">&#8630; Deshacer</span></div><div class="ambar-face-map"><span class="ambar-face-side ambar-face-left">D</span><span class="ambar-face-side ambar-face-right">I</span><svg class="ambar-face-svg" viewBox="0 0 220 310" role="img" aria-label="Silueta facial para marcar puntos"><path class="ambar-face-outline" d="M110 18 C73 18 46 50 47 97 C48 151 61 212 88 241 C96 250 102 254 110 257 C118 254 124 250 132 241 C159 212 172 151 173 97 C174 50 147 18 110 18Z"/><path class="ambar-face-ear" d="M48 104 C31 96 31 136 50 149 M172 104 C189 96 189 136 170 149"/><path class="ambar-face-brow" d="M73 95 Q89 86 102 94 M118 94 Q131 86 147 95"/><ellipse class="ambar-face-eye" cx="88" cy="108" rx="12" ry="6"/><ellipse class="ambar-face-eye" cx="132" cy="108" rx="12" ry="6"/><circle class="ambar-face-pupil" cx="88" cy="108" r="3"/><circle class="ambar-face-pupil" cx="132" cy="108" r="3"/><path class="ambar-face-nose" d="M110 99 C108 119 106 135 102 147 Q110 154 118 147"/><path class="ambar-face-mouth" d="M91 177 Q110 166 129 177 Q110 194 91 177Z"/><path class="ambar-face-neck" d="M83 241 C82 270 78 286 71 301 M137 241 C138 270 142 286 149 301"/><path class="ambar-face-zone" d="M66 71 Q110 47 154 71 M67 139 Q110 159 153 139 M77 177 Q110 208 143 177"/></svg></div><div class="ambar-face-caption"><span>Vista frontal &middot; D / I = derecha / izquierda del paciente</span><b>0 pts</b></div><div class="ambar-face-note">Agrega un producto para empezar a marcar.</div></div>
+                  <div class="ambar-session-column"><label class="ambar-field-label">Fecha de la sesi&oacute;n</label><div class="ambar-date-field">10/20/2026 <span>&#128197;</span></div><label class="ambar-field-label ambar-product-label">PRODUCTOS DE LA SESI&Oacute;N</label><div class="ambar-product-card"><div class="ambar-product-row"><label>Producto / marca<span>ej. Toxina botul&iacute;nica</span></label><label>Unidad<select><option>U</option></select></label><label>Dosis/punto<input placeholder="0" /></label></div><div class="ambar-product-row"><label>Lote<input placeholder="Opcional" /></label><label>Diluci&oacute;n<input placeholder="ej. 100 U en 2,5 ml" /></label></div><div class="ambar-product-actions"><span>Cancelar</span><b>Agregar</b></div></div><label class="ambar-field-label ambar-points-label">PUNTOS DE APLICACI&Oacute;N</label><div class="ambar-points-empty">A&uacute;n no hay puntos. Haz clic en la silueta para marcar el primero.</div><label class="ambar-field-label ambar-notes-label">Notas cl&iacute;nicas (opcional)</label><textarea class="ambar-notes" placeholder="Indicaciones, reacciones inmediatas, control sugerido..."></textarea><div class="ambar-modal-actions"><span>Cancelar</span><b>Guardar mapa</b></div></div>
+                </div>
+              </section>
+              <div class="preview-toolbar"><span class="preview-app"><img src="assets/ambar-pwa-icon.svg" alt="" /> Ámbar</span><span class="preview-live"><i></i> SEGUIMIENTO</span><span class="preview-controls"><i></i><i></i><i></i></span></div>
+              <div class="preview-layout">
+                <aside class="preview-sidebar"><span class="is-current">Resumen</span><span>Agenda</span><span>Pacientes</span><span>Tratamientos</span></aside>
+                <div class="preview-main">
+                  <div class="preview-heading"><strong>Agenda y tratamientos</strong><span>Centro</span></div>
+                  <div class="preview-metrics"><div class="preview-stat"><small>AGENDA</small><b>Vista del día</b><span class="preview-line"><i></i></span></div><div class="preview-stat"><small>SESIONES</small><b>En seguimiento</b><span class="preview-line"><i></i></span></div><div class="preview-stat"><small>TRATAMIENTOS</small><b>Planes activos</b><span class="preview-line"><i></i></span></div></div>
+                  <div class="preview-panel preview-agenda"><small>Actividad programada</small><div class="preview-row"><span><i class="preview-time">09:30</i> Consulta inicial</span><b class="preview-tag">Confirmada</b></div><div class="preview-row"><span><i class="preview-time">11:00</i> Sesión de tratamiento</span><b class="preview-tag">Programada</b></div><div class="preview-row"><span><i class="preview-time">15:15</i> Seguimiento</span><b class="preview-tag">Confirmada</b></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="case-copy"><h3 id="case-ambar-title">Atención estética con mejor continuidad.</h3><p>Agenda, pacientes y tratamientos organizados para acompañar cada etapa de la atención.</p><a href="#contacto">Conversemos sobre Ámbar <span aria-hidden="true">↗</span></a></div>
+          </article>
+
+          <article class="case-card case-inventia reveal" id="caso-inventia" aria-labelledby="case-inventia-title" tabindex="-1">
+            <div class="case-card-head">
+              <div class="case-brand"><img src="assets/inventia-app-icon.png" alt="" /><span><small>INVENTARIOS</small><strong>Inventia</strong></span></div>
+              <span class="case-number">04</span>
+            </div>
+            <div class="case-preview inventia-app-preview" aria-label="Vista del resumen de Inventia">
+              <div class="inventia-app-layout">
+                <aside class="inventia-sidebar">
+                  <div class="inventia-sidebar-brand"><img src="assets/inventia-app-icon.png" alt="" /><strong>Inventia</strong></div>
+                  <div class="inventia-owner"><strong>De todo un poco</strong><small>Propietario</small></div>
+                  <nav class="inventia-nav" aria-label="Navegaci&oacute;n de Inventia"><span class="is-current"><i>&#9636;</i>Resumen</span><span><i>&#8644;</i>Vender</span><span><i>&#9633;</i>Pedidos online</span><span><i>&#9670;</i>Cupones y promociones</span><span><i>&#9632;</i>Productos</span><span><i>&#9719;</i>Historial de ventas</span><span><i>&#8646;</i>Movimientos</span><span><i>&#9633;</i>Conteo f&iacute;sico</span><span><i>&#128196;</i>Compras</span><span><i>&#8744;</i>Reportes</span></nav>
+                  <div class="inventia-sidebar-divider"></div><span class="inventia-settings"><i>&#9881;</i>Configuraci&oacute;n</span>
+                </aside>
+                <main class="inventia-main">
+                  <div class="inventia-main-top"><button>&#128172; &nbsp;Enviar resumen del d&iacute;a</button></div>
+                  <section class="inventia-stats"><article><small>Ventas de hoy</small><strong>Bs 0,00</strong><span>Sin ventas ayer ni hoy</span></article><article><small>Tickets de hoy</small><strong>0</strong><span>Igual que ayer</span></article><article><small>Ticket promedio</small><strong>Bs 0,00</strong></article><article><small>Margen bruto del mes</small><strong>&mdash;</strong><span>Utilidad Bs 0,00</span></article></section>
+                  <section class="inventia-middle"><article class="inventia-chart-card"><div class="inventia-card-heading"><div><h3>Ventas de los &uacute;ltimos 30 d&iacute;as</h3><p>Total Bs 0,00 &middot; promedio diario Bs 0,00</p></div><div class="inventia-range"><span>7 d&iacute;as</span><b>30 d&iacute;as</b></div></div><div class="inventia-chart-area"><div class="inventia-chart-baseline"></div><div class="inventia-chart-dates"><span>21 sept</span><span>6 oct</span><span>Hoy</span></div></div></article><article class="inventia-best-card"><div class="inventia-card-heading"><h3>M&aacute;s vendidos</h3><a href="#caso-inventia">Ver reportes</a></div><p>Todav&iacute;a no hay ventas en los &uacute;ltimos 30 d&iacute;as.</p></article></section>
+                  <section class="inventia-replenish"><div><h3>Para reponer</h3><p>Productos bajo el m&iacute;nimo y cantidad sugerida seg&uacute;n el consumo de 30 d&iacute;as</p></div><button>Registrar compra</button><p class="inventia-empty-replenish">No hay productos por reponer.</p></section>
+                </main>
+              </div>
+              <div class="preview-toolbar"><span class="preview-app"><img src="assets/inventia-app-icon.png" alt="" /> Inventia</span><span class="preview-live"><i></i> CONTROL DE STOCK</span><span class="preview-controls"><i></i><i></i><i></i></span></div>
+              <div class="preview-layout">
+                <aside class="preview-sidebar"><span class="is-current">Resumen</span><span>Productos</span><span>Ventas</span><span>Reposición</span></aside>
+                <div class="preview-main">
+                  <div class="preview-heading"><strong>Resumen comercial</strong><span>Inventario</span></div>
+                  <div class="preview-metrics"><div class="preview-stat"><small>VENTAS</small><b>Actividad diaria</b><span class="preview-line"><i></i></span></div><div class="preview-stat"><small>PRODUCTOS</small><b>Stock disponible</b><span class="preview-line"><i></i></span></div><div class="preview-stat"><small>REPOSICIÓN</small><b>Alertas de stock</b><span class="preview-line"><i></i></span></div></div>
+                  <div class="preview-lower"><div class="preview-panel preview-chart"><small>Ventas recientes</small><div class="preview-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="preview-chart-labels"><span>SEMANA</span><span>HOY</span></div></div><div class="preview-panel"><small>Inventario</small><div class="preview-stock"><i></i><span></span></div><div class="preview-stock"><i></i><span></span></div><div class="preview-stock"><i></i><span></span></div></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="case-copy"><h3 id="case-inventia-title">Inventario y ventas, bajo control.</h3><p>Seguimiento de existencias, actividad comercial y necesidades de reposición desde un solo lugar.</p><a href="#contacto">Conversemos sobre Inventia <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <p class="cases-note reveal">Vistas ilustrativas del producto; no contienen información de clientes.</p>
+      </section>
+
+      <section class="method section-light" id="metodo" aria-labelledby="method-title">
+        <div class="section-kicker reveal"><span>04 / CÓMO LO HACEMOS</span><span>CLARIDAD EN CADA PASO</span></div>
+        <div class="method-layout">
+          <div class="method-title reveal"><h2 id="method-title">Avanzar<br />con <span>intención.</span></h2><p>Proceso claro. Colaboración cercana. Resultados que se sienten desde el primer avance.</p><div class="method-stamp" aria-hidden="true">LN<br /><span>BUILD WITH PURPOSE</span><i>✳</i></div></div>
+          <div class="steps">
+            <article class="step reveal"><span class="step-index">01</span><div><h3>Entender</h3><p>Nos metemos en el contexto para encontrar el problema que vale la pena resolver.</p></div><span class="step-symbol">⌕</span></article>
+            <article class="step reveal"><span class="step-index">02</span><div><h3>Diseñar</h3><p>Convertimos oportunidades en una solución clara, priorizada y lista para probar.</p></div><span class="step-symbol">◈</span></article>
+            <article class="step reveal"><span class="step-index">03</span><div><h3>Construir</h3><p>Desarrollamos en ciclos cortos, con calidad técnica y visibilidad en cada entrega.</p></div><span class="step-symbol">⌘</span></article>
+            <article class="step reveal"><span class="step-index">04</span><div><h3>Hacer evolucionar</h3><p>Medimos, aprendemos y mejoramos junto a las personas que usan el producto.</p></div><span class="step-symbol">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact dark-section" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-orb" aria-hidden="true">
+          <span class="contact-satellite contact-satellite-main"></span>
+          <span class="contact-satellite contact-satellite-mid"></span>
+          <span class="contact-satellite contact-satellite-outer"></span>
+          <i class="contact-orb-star contact-orb-star-main">✳</i>
+          <i class="contact-orb-star contact-orb-star-mid">✦</i>
+          <i class="contact-orb-star contact-orb-star-low">✧</i>
+          <i class="contact-orb-star contact-orb-star-left">✦</i>
+        </div>
+        <div class="contact-content reveal">
+          <div class="section-kicker"><span>05 / TU PRÓXIMO PASO</span><span>HABLEMOS DE LO QUE VIENE</span></div>
+          <h2 id="contact-title">¿Qué podemos<br /><em>hacer posible?</em></h2>
+          <p>Cuéntanos qué tienes en mente. El primer paso puede ser una buena conversación.</p>
+          <div class="contact-details"><a href="https://wa.me/59169590150?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones." target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp al +591 69590150">+591 69590150</a><a href="https://wa.me/59169590150?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones." target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></div>
+          <form class="contact-form" id="contact-form">
+            <label for="contact-name">TU NOMBRE</label>
+            <input id="contact-name" name="name" autocomplete="name" placeholder="¿Cómo te llamas?" required />
+            <label for="contact-email">TU CORREO</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="nombre@empresa.com" required />
+            <label for="contact-project">¿QUÉ TE GUSTARÍA CONSTRUIR?</label>
+            <textarea id="contact-project" name="project" rows="2" placeholder="Cuéntanos un poco de tu idea" required></textarea>
+            <button class="button button-gold" type="submit">Preparar mensaje <span aria-hidden="true">↗</span></button>
+            <p class="form-note" id="form-note" aria-live="polite">Se abrirá tu aplicación de correo para completar el envío.</p>
+          </form>
+        </div>
+        <div class="contact-signature"><span>LEONOVA TECHNOLOGIES</span><span>SOFTWARE · SISTEMAS · INGENIERÍA</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-brand" href="#inicio">LEONOVA<span>®</span></a><span>TECNOLOGÍA CON PROPÓSITO.</span><a href="#inicio">VOLVER ARRIBA ↑</a><small>© <span id="year"></span> LEONOVA TECHNOLOGIES</small></footer>
+  </body>
+</html>
